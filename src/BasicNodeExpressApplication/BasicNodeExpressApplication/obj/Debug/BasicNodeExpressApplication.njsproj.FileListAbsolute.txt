@@ -1,0 +1,2 @@
+C:\git\vs2015-typescript-node-samples\src\BasicNodeExpressApplication\BasicNodeExpressApplication\obj\Debug\BasicNodeExpressApplication.njsprojResolveAssemblyReference.cache
+C:\git\vs2015-typescript-node-samples\src\BasicNodeExpressApplication\BasicNodeExpressApplication\bin\Microsoft.NodejsTools.WebRole.dll

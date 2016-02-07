@@ -1,0 +1,15 @@
+{
+  "name": "BasicNodeExpressApplication",
+  "version": "0.0.0",
+  "description": "BasicNodeExpressApplication",
+  "main": "app.js",
+  "author": {
+    "name": "peter",
+    "email": ""
+  },
+  "dependencies": {
+    "express": "3.4.4",
+    "jade": "*",
+    "stylus": "*"
+  }
+}
