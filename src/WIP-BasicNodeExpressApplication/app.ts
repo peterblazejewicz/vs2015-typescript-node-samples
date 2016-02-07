@@ -3,7 +3,7 @@
 import * as express from 'express';
 import * as path from 'path';
 import * as favicon from 'serve-favicon';
-import * as logger from 'morgan';
+import logger = require('morgan');
 import * as cookieParser from 'cookie-parser';
 import * as bodyParser from 'body-parser';
 import * as methodOverride from 'method-override';
@@ -12,7 +12,7 @@ import * as routes from './routes/index';
 import * as users from './routes/users';
 //const users = require('./routes/users');
 
-export const app = express();
+const app: express.Application = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -59,3 +59,5 @@ app.use((err: Error, req: express.Request, res: express.Response, next: express.
     error: {}
   });
 });
+
+module.exports = app;
