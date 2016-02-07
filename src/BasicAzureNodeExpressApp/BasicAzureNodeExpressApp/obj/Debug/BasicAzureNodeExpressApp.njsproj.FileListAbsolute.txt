@@ -1,0 +1,1 @@
+C:\git\vs2015-typescript-node-samples\src\BasicAzureNodeExpressApp\BasicAzureNodeExpressApp\bin\Microsoft.NodejsTools.WebRole.dll
