@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "preserveConstEnums": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es6"
+  },
+  "files": [
+    "app.ts",
+    "server.ts",
+    "routes/index.ts",
+    "routes/users.ts"
+  ]
+}
