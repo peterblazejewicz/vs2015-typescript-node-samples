@@ -8,7 +8,7 @@ import * as cookieParser from 'cookie-parser';
 import * as bodyParser from 'body-parser';
 
 import routes = require('./routes/index');
-import * as users from './routes/users';
+import users = require('./routes/users');
 
 const app = express();
 
@@ -24,8 +24,7 @@ app.use(cookieParser());
 app.use(require('stylus').middleware(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'public')));
 
-
-app.use('/', routes);
-app.use('/users', users);
+app.use('/', routes.router);
+app.use('/users', users.router);
 
 module.exports = app;
